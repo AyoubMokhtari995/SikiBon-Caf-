@@ -1,0 +1,224 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  transition: 0.4s ease;
+  color: white;
+}
+body {
+  background-color: black;
+}
+
+header ul li a {
+  color: white;
+  text-decoration: none;
+  margin-top: 20px;
+  font-size: 
+
+}
+header ul li{
+  display: inline-block;
+  list-style: none;
+
+}
+header {
+  background-color: black;
+  height: 150px;
+  display: flex;
+  position: sticky;
+  top: -40px;
+}
+nav {
+  width: 93%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu a {
+  color: aliceblue;
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.menu a:hover {
+  color: black;
+  font-size: 35px;
+  background-color: orange;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.menu ul .login{
+  right: 0px;
+  margin-right: 50px  ;
+  margin-bottom: 50px;
+  position: absolute;
+
+}
+
+.sb {
+  align-self: center;
+  font-size: 70px;
+  color: orange;
+  margin-top: 2px;
+  padding-bottom: 0px;
+  border-bottom: 1px solid orange;
+  font-weight: lighter;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 30px;
+}
+.sb:hover {
+  color: white;
+  border-bottom: 1px solid white;
+  padding-bottom: 20px;
+}
+html {
+  scroll-behavior: smooth;
+}
+section {
+  height: 1000px;
+}
+#main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(delicious-chinese-cuisine-soft-shelled-turtle-stewed-with-chicken-pot.jpg);
+  background-position-y: center;
+  background-size: cover;
+}
+#main h1 {
+  text-transform: uppercase;
+  padding: 250px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 150px;
+}
+#main .butt a {
+  text-decoration: none;
+  padding: 12px;
+  text-align: center;
+  font-size: 40px;
+  color: whitesmoke;
+  margin: 20px;
+  background-color: orange;
+  border: 1px solid black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+}
+#main .butt a:hover {
+  color: black;
+
+  font-size: 45px;
+
+  background-color: white;
+}
+#main .butt {
+  display: flex;
+  width: 100%;
+  padding-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+}
+#entree h1,
+#pates h1,
+#plats h1,
+#desserts h1 {
+  font-size: 50px;
+  margin: 20px;
+  text-align: center;
+  border: 1px solid white;
+  border-top: none;
+  margin-top: 0px;
+}
+#entree h1 span,
+#pates h1 span,
+#desserts h1 span,
+#plats h1 span {
+  color: orange;
+}
+
+#entree .tabmenu,
+#pates .tabmenu,
+#plats .tabmenu,
+#desserts .tabmenu {
+  display: inline-block;
+  margin: 50px;
+  margin-top: 5px;
+  align-items: center;
+}
+#entree .tabmenu .item,
+#pates .tabmenu .item,
+#plats .tabmenu .item,
+#desserts .tabmenu .item {
+  width: 300px;
+  padding: 20px;
+  float: left;
+  text-align: center;
+  margin: 40px;
+  border: 1px solid white;
+}
+#entree .tabmenu .item img,
+#pates .tabmenu .item img,
+#plats .tabmenu .item img,
+#desserts .tabmenu .item img {
+  height: 160px;
+  padding: 10px;
+  max-width: 200px;
+  margin: 5px;
+  border-radius: 50px;
+}
+#entree .tabmenu .item label,
+#pates .tabmenu .item label,
+#plats .tabmenu .item label,
+#desserts .tabmenu .item label {
+  text-align: center;
+  margin-right: 15px;
+  font-size: 20px;
+}
+#entree .tabmenu .item input[type="text"],
+#pates .tabmenu .item input[type="text"],
+#plats .tabmenu .item input[type="text"],
+#desserts .tabmenu .item input[type="text"] {
+  font-size: 25px;
+  text-align: center;
+  width: 60px;
+  margin: 10px;
+  padding: 5px;
+  color: orange ;
+  font-weight: bolder;
+  background-color: black;
+}
+#entree .tabmenu .item input[type="number"],
+#pates .tabmenu .item input[type="number"],
+#plats .tabmenu .item input[type="number"],
+#desserts .tabmenu .item input[type="number"] {
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+  margin: 10px;
+  width: 28px;
+  color: black;
+  font-weight: bolder;
+  background-color: orange;
+}
+#pates .tabmenu .item,
+#plats .tabmenu .item,
+#desserts .tabmenu .item {
+  width: 500px;
+  margin-left: 180px;
+}
+footer {
+  height: 100px;
+  background-color: blanchedalmond;
+}
+footer a h1 {
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20px;
+}
+footer a {
+  text-decoration: none;
+}
